@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Browser4Pets</title>
+    <title>Browse4Pets</title>
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/04d176b0b6.js"
@@ -115,12 +115,12 @@
                 class="fa-solid fa-magnifying-glass hidden lg:block text-xl"
               ></i>
               <button
-                class="btn btn-outline px-6 py-0 rounded-lg hidden lg:block font-2 font-xs border-[#FFDC26]"
+                class="btn btn-outline px-6 py-0 rounded-lg hidden lg:block font-2 font-xs border-[#FFDC26] font-normal"
               >
                 Login
               </button>
               <button
-                class="btn px-6 py-0 rounded-lg hidden lg:block bg-[#FFDC26] font-2 font-xs"
+                class="btn px-6 py-0 rounded-lg hidden lg:block bg-[#FFDC26] font-2 font-xs font-normal"
               >
                 Register
               </button>
@@ -131,19 +131,24 @@
 
       <!-- Banner -->
       <section
-        class="border border-black mb-20 mx-auto w-10/12 pl-4 pr-4 py-5 bg-white"
+        class=" mb-20 mx-auto w-10/12 pl-4 pr-4 py-5 bg-white relative"
       >
-        <div class="border border-black max-w-lg">
-          <h1 class="text-5xl font-bold">Hello there</h1>
-          <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+        <div class=" lg:max-w-screen-sm absolute lg:my-10">
+          <h1 class="text-[30px] leading-9  lg:text-[56px] font-1 lg:leading-[65px]">
+            Pamper Your Pet, <br>Because They Deserve the Bes
+          </h1>
+          <p class="lg:py-6 font-2 lg:text-[20px] lg:leading-[36px] text-xs py-2">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends. Shop now and make tails wag with joy!
           </p>
-          <button class="btn btn-primary">Get Started</button>
+          <button
+            class="btn px-2 pt-0 lg:px-6 py-0 rounded-lg bg-[#FFDC26] font-2 font-xs font-normal"
+          >
+            Find a pet
+          </button>
         </div>
-        <div class="">
-          <img src="c1-assets/cat-big.png" alt="" />
+        <div class=" mt-32 lg:mt-0">
+          <img class="w-full" src="c1-assets/cat-big.png" alt="" />
         </div>
       </section>
     </header>
