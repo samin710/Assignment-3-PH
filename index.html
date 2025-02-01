@@ -77,24 +77,11 @@
                   role="button"
                   class="btn btn-ghost lg:hidden flex-1"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16"
-                    />
-                  </svg>
+                  <img class="w-5 h-5" src="c1-assets/menu.png" alt="">
                 </div>
                 <ul
                   tabindex="0"
-                  class="menu menu-xs dropdown-content bg-base-100 rounded-box z-[1] mt-3 max-w-[70px] shadow font-2 text-black"
+                  class="menu menu-xs dropdown-content bg-base-100 rounded-box z-[1] pl-0  mt-3 max-w-[60px] shadow font-2 text-black"
                 >
                   <li><a>Find a pet</a></li>
                   <li><a>Breeds</a></li>
@@ -155,50 +142,65 @@
         </div>
       </section>
       <!-- Chat section -->
-      <div class="lg:mb-20 lg:mx-auto lg:w-10/12 lg:pl-4 lg:pr-4 lg:py-5 px-3">
-        <div class="chat chat-start">
-          <div class="chat-image avatar">
-            <div class="w-10 rounded-full">
-              <img
-                alt="Tailwind CSS chat bubble component"
-                src="c1-assets/cute-pet-small.png"
-              />
+      <div class="px-3 lg:px-0 lg:mb-20 lg:mx-auto lg:w-10/12 lg:pl-4 lg:py-8 ">
+        <h2 class="font-1 text-2xl lg:text-3xl mb-8 text-black">
+          We Are Browse<span class="text-[#FFDC26]">4</span>Pets
+        </h2>
+        <div
+          class=" border border-yellow-100 bg-gradient-to-r from-yellow-100 to-white rounded-lg shadow-lg lg:pl-9 lg:py-8 pl-3 py-5 transition-transform hover:duration-1000 hover:ease-out hover:scale-110 mb-16 lg:mb-0"
+        >
+          <div class="chat chat-start py-2">
+            <div class="chat-image avatar">
+              <div class="w-24 rounded-full p-1 bg-white">
+                <img
+                  alt="Tailwind CSS chat bubble component"
+                  src="c1-assets/cute-pet-small.png"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="chat-bubble bg-yellow-300 text-black font-2 font-normal">
+              Welcome to Browse<span class="text-orange-500">4</span>Pets – where loving homes meet adorable pets!
+              Find your perfect furry, feathery, or scaly companion today
             </div>
           </div>
-          <div class="chat-bubble">
-            It was said that you would, destroy the Sith, not join them.
-          </div>
-        </div>
-        <div class="chat chat-start">
-          <div class="chat-image avatar">
-            <div class="w-10 rounded-full">
-              <img
-                alt="Tailwind CSS chat bubble component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-              />
+          <div class="chat chat-start py-2">
+            <div class="chat-image avatar">
+              <div class="w-24 rounded-full p-3 bg-white">
+                <img
+                  alt="Tailwind CSS chat bubble component"
+                  src="c1-assets/cute-cat-2.png"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="chat-bubble bg-yellow-300 text-black font-2 font-normal"">
+              Bringing joy, one pet at a time! Explore our wide selection of
+              lovable pets and make a new best friend.
             </div>
           </div>
-          <div class="chat-bubble">
-            It was you who would bring balance to the Force
-          </div>
-        </div>
-        <div class="chat chat-start">
-          <div class="chat-image avatar">
-            <div class="w-10 rounded-full">
-              <img
-                alt="Tailwind CSS chat bubble component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-              />
+          <div class="chat chat-start py-2">
+            <div class="chat-image avatar">
+              <div class="w-24 rounded-full bg-white p-1">
+                <img
+                  alt="Tailwind CSS chat bubble component"
+                  src="c1-assets/cute-rabbit.png"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="chat-bubble bg-yellow-300 text-black font-2 font-normal"">
+              Your journey to unconditional love starts here! Discover the
+              perfect pet to bring happiness into your home.
             </div>
           </div>
-          <div class="chat-bubble">Not leave it in Darkness</div>
         </div>
       </div>
     </header>
     <main class="">
       <!-- Category -->
       <section
-        class="lg:mb-20 lg:mx-auto lg:w-10/12 lg:pl-4 lg:pr-4 lg:py-5 px-3"
+        class="lg:mb-24 lg:mx-auto lg:w-10/12 lg:pl-4 lg:pr-4 lg:py-5 px-3 mb-16"
       >
         <h2 class="font-1 text-2xl lg:text-3xl mb-8 text-black">
           Browse By Categories
